@@ -1,0 +1,11 @@
+include: package:lints/recommended.yaml
+
+linter:
+ rules:
+    avoid_print: false
+    prefer_single_quotes: true
+    await_only_futures: true
+exclude:
+  - lib/client.dart
+  - lib/server/*.g.dart
+  - test/_data/**
